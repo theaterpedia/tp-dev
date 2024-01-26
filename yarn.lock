@@ -1385,10 +1385,10 @@
     "@mertasan/tailwindcss-variables" "^2.5.2"
     "@storefront-ui/tw-plugin-peer-next" "2.3.1"
 
-"@crearis/theme-main@^0.0.20":
-  version "0.0.20"
-  resolved "https://registry.yarnpkg.com/@crearis/theme-main/-/theme-main-0.0.20.tgz#189b5687135090787ca40d360786ee27c32ccab8"
-  integrity sha512-g28C9ADljzGvr1KnG/+Pw3K3ydPuhvvTU6YZrjQW9E5Hi+vZZo1TovaD04QYdFXsC7yRECpG26f9rZQ7FMG57Q==
+"@crearis/theme-main@^0.0.22":
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/@crearis/theme-main/-/theme-main-0.0.22.tgz#e5ea673807213e91fada9259db935c19a4336cb4"
+  integrity sha512-jKuPmRklPYbGkFIqYIrS+gUS88PGZwiF131CEdtKolLmDciZwo336+fpu47Jt5UcNqzm37a8VD/bbfq98tfyfw==
   dependencies:
     "@crearis/vue" "^0.0.8"
     "@nuxtjs/tailwindcss" "^6.8.0"
