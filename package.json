@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",    
+    "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",  
+    "analyze": "nuxi analyze apps/tp-test",  
     "dev": "cd apps/tp-test && yarn dev",
     "build": "cd apps/tp-test && yarn build",
     "start": "node apps/tp-template/.output/server/index.mjs",
