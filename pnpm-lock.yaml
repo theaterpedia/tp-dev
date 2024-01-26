@@ -59,8 +59,8 @@ devDependencies:
     specifier: ^0.0.23
     version: 0.0.23(react-dom@18.2.0)(react@18.2.0)(rollup@4.9.6)(vue@3.4.15)
   '@crearis/theme-main':
-    specifier: ^0.0.26
-    version: 0.0.26(autoprefixer@10.4.17)(postcss@8.4.33)(rollup@4.9.6)(tailwindcss@3.4.1)(vue@3.4.15)
+    specifier: ^0.0.28
+    version: 0.0.28(autoprefixer@10.4.17)(postcss@8.4.33)(rollup@4.9.6)(tailwindcss@3.4.1)(vue@3.4.15)
   '@crearis/typography':
     specifier: ^0.0.8
     version: 0.0.8(tailwindcss@3.4.1)
@@ -1821,8 +1821,8 @@ packages:
       - postcss
       - tailwindcss
 
-  /@crearis/theme-main@0.0.26(autoprefixer@10.4.17)(postcss@8.4.33)(rollup@4.9.6)(tailwindcss@3.4.1)(vue@3.4.15):
-    resolution: {integrity: sha512-4DFJ5up6MjADJ84bRZ+kSwBlrI7hjYsTSjy9oHZO3JDIxWmMJPDLXBzlgB/idElckV4Bmbc/kUqdgiKVHtpw5Q==}
+  /@crearis/theme-main@0.0.28(autoprefixer@10.4.17)(postcss@8.4.33)(rollup@4.9.6)(tailwindcss@3.4.1)(vue@3.4.15):
+    resolution: {integrity: sha512-GX8DYntyuxn4gTBIiB39Kmzt1p3+7WYsUv03CX0TrCNYTuNW/NHguYoRzyokzWDX+2I9leKAybPreNFzCQd+ag==}
     dependencies:
       '@crearis/vue': 0.0.8(autoprefixer@10.4.17)(postcss@8.4.33)(tailwindcss@3.4.1)(vue@3.4.15)
       '@nuxtjs/tailwindcss': 6.11.1(rollup@4.9.6)
