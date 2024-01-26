@@ -4,6 +4,13 @@ export default defineNuxtConfig({
           '@crearis/theme-main',
           '@crearis/data-main',
         ],
+        i18n: {
+          langDir: './lang',
+          locales: [
+            { code: 'en', file: 'en.json' },
+            { code: 'de', file: 'de.json' },
+        ],
+        },
   nitro: {
     prerender: {
       routes: ['/'],
