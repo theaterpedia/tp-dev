@@ -1,0 +1,31 @@
+{
+  "name": "theaterpedia-explore",
+  "version": "1.0.0",
+  "description": "hacking and testing theaterpedia-core",
+  "main": "./apps/tp-test/nuxt.config.ts",
+  "repository": "https://github.com/theaterpedia/theaterpedia-explore",
+  "author": "crearis <hans.doenitz@dasei.eu>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",    
+    "dev": "cd apps/tp-test && yarn dev",
+    "build": "cd apps/tp-test && yarn build",
+    "start": "node apps/tp-template/.output/server/index.mjs",
+    "preview": "cd apps/tp-test && yarn preview",    
+    "lint": "cd apps/tp-test && yarn lint",
+    "lint:fix": "cd apps/tp-test && yarn lint:fix",
+    "test": "cd apps/tp-test && yarn test",
+    "test:coverage": "cd apps/tp-test && yarn test:coverage",
+    "test:watch": "cd apps/tp-test && yarn test:watch",
+    "test:cypress": "cd apps/tp-test && yarn test:cypress",
+    "test:cypress-dev": "cd apps/tp-test && yarn test:cypress-dev"
+  },
+  "workspaces": [
+    "apps/**/*"
+  ],
+  "packageManager": "yarn@1.22.10",
+  "engines": {
+    "node": ">=v18.18.2"
+  }  
+}
