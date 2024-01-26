@@ -1,8 +1,8 @@
 import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   extends: [
-          'github:theaterpedia/theaterpedia-core/packages/theme#episodes/dual',
-          'github:theaterpedia/theaterpedia-core/packages/data#episodes/dual'
+          '@crearis/theme-main',
+          '@crearis/data-main',
         ],
   nitro: {
     prerender: {
