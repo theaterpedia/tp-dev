@@ -11,6 +11,7 @@ export default defineNuxtConfig({
             { code: 'de', file: 'de.json' },
         ],
         },
+  modules: ['pruvious'],
   typescript: {
     tsConfig: {
       compilerOptions: {

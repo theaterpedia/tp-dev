@@ -39,8 +39,8 @@
   },
   "packageManager": "pnpm@8.14.3",
   "devDependencies": {
-    "@crearis/data-main": "^0.0.24",
-    "@crearis/theme-main": "^0.0.38",
+    "@crearis/data-main": "^0.1.0",
+    "@crearis/theme-main": "^0.1.0",
     "@crearis/typography": "^0.0.8",
     "@graphql-codegen/cli": "^4.0.1",
     "@graphql-codegen/client-preset": "^4.0.1",
