@@ -1,0 +1,67 @@
+Arguments: 
+  /home/persona/.nvm/versions/node/v20.8.1/bin/node /home/persona/.cache/node/corepack/yarn/1.22.19/bin/yarn.js
+
+PATH: 
+  /home/persona/.local/bin:/home/persona/.local/bin:/home/persona/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/home/persona/.local/bin:/home/persona/.local/bin:/home/persona/.local/bin:/home/persona/.nvm/versions/node/v20.8.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.0.9.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/persona/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/persona/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/persona/AppData/Local/GitHubDesktop/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.8.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@crearis%2feslint-config-custom: Not found
+      at params.callback [as _callback] (/home/persona/.cache/node/corepack/yarn/1.22.19/lib/cli.js:66145:18)
+      at self.callback (/home/persona/.cache/node/corepack/yarn/1.22.19/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/home/persona/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/home/persona/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1408:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "theaterpedia-core-turbo",
+    "version": "0.0.8",
+    "private": true,
+    "scripts": {
+      "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
+      "start": "node apps/tp-dev/.output/server/index.mjs",
+      "build": "turbo run build",
+      "release": "turbo run release --concurrency=1",
+      "generate": "turbo run generate",
+      "dev": "turbo run dev --parallel",
+      "lint": "turbo run lint",
+      "lint:fix": "turbo run lint:fix",
+      "test": "cd apps/tp-dev && yarn test",
+      "test:watch": "cd apps/tp-dev && yarn test:watch",
+      "test:turbo": "turbo run test",
+      "type-check": "turbo run type-check"
+    },
+    "devDependencies": {
+      "@crearis/eslint-config-custom": "*",
+      "@release-it/conventional-changelog": "^8.0.1",
+      "release-it": "^17.0.1",
+      "turbo": "latest" 
+    },
+    "workspaces": [
+      "apps/**/*"
+    ],
+    "packageManager": "yarn@1.22.19",
+    "engines": {
+      "node": ">=v20.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

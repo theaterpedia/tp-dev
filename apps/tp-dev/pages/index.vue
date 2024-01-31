@@ -15,7 +15,8 @@
     <p class="text-xl font-mono">
       premium
     </p>
-    </NuxtLayout>
+  </NuxtLayout>
+
 </template>
 
 <script setup lang="ts">

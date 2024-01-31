@@ -11,13 +11,15 @@ export default defineNuxtConfig({
             { code: 'de', file: 'de.json' },
         ],
         },
+  
   typescript: {
     tsConfig: {
       compilerOptions: {
         verbatimModuleSyntax: false
       }
     }    
-  },        
+  }, 
+  
   nitro: {
     prerender: {
       routes: ['/'],
